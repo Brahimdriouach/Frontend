@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{ margin: 0;
+        padding: 0;
+        background-color:hsl(30, 38%, 92%) ; 
+        
+       }
+  .card{
+    margin: 4px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 25px hsl(228, 12%, 48%);
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+  }
+  .card-body{margin: 10px;
+    padding: 18px;
+
+  }
+  .card-body>span:first-child
+                            {display: block;
+                            color:hsl(228, 12%, 48%) ;
+                            font-family: 'Fraunces', serif;
+                            text-transform: uppercase;
+                            margin-top:15px; 
+                            font-weight: 300;
+                            letter-spacing: 8px;
+                            font-size: 14px;
+                            }
+#card-title{
+            font-family: 'Fraunces', serif;
+                              
+              } 
+              .card-body>p{
+                font-size: 14px;
+                font-family: 'Fraunces', serif;
+                word-spacing: 4px;
+                line-height: 20px;
+                color: hsl(228, 12%, 48%);font-weight:500;
+                }
+              .price{
+                display: flex;
+                align-items: center;
+                margin: 8px;
+              }  
+              .price>span:first-child{
+                
+                color: hsl(158, 36%, 37%);
+                font-size:40px ;
+                font-family: 'Fraunces', serif;font-weight:bolder;
+                
+              }  
+              .price>span:last-child{
+                color:hsl(228, 12%, 48%) ;
+                text-decoration: line-through;
+                display:block;
+                font-family: 'Fraunces', serif;
+                
+                margin-left: 8px;}
+              button{
+                font-family:'Montserrat', sans-serif;
+                background-color:hsl(158, 36%, 37%) ;
+                width:100%;
+                margin:12px  auto;
+                border: none;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 12px;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+              }                                         
+
+
+
+
+
+@media screen and (min-width:420px) {
+.card{
+  display: flex;
+  width: 600px;
+  
+  margin:100px auto;
+  
+}
+.card-body{width: 50%;}
+
+}
+
+
+
+
+
+  
+
